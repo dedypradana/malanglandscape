@@ -4,6 +4,7 @@ Header always set Access-Control-Max-Age "1000"
 Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
 
 RewriteEngine on
+RewriteBase /
 RewriteCond $1 !^(index\.php|indexGB\.php|login\.php|themes|file|manual)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
