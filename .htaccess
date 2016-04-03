@@ -10,7 +10,6 @@ Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, 
 #RewriteRule ^(.*) index.php/$1 [L]
 
 RewriteEngine On
-RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php?/$1 [L]
