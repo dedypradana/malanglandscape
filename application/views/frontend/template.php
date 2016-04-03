@@ -16,12 +16,12 @@
   <meta content="Membuat Taman Kota Landscape" name="keywords">
   <meta content="Malang Landscape" name="author">
 
-  <meta property="og:site_name" content="-CUSTOMER VALUE-">
-  <meta property="og:title" content="-CUSTOMER VALUE-">
-  <meta property="og:description" content="-CUSTOMER VALUE-">
+  <meta property="og:site_name" content="Malang Landscape">
+  <meta property="og:title" content="Spesialis Pembuatan Taman">
+  <meta property="og:description" content="Malang Landscape Spesialis Mengerjakan Jasa Pembuatan Taman, Relief, Kolam Ikan Koi, Kolam Renang, Patung dan Lukisan. Malang Lanscape telah berpengalaman di bidangnya, mendapatkan penghargaan juara 3 Se Jatim pada Tahun 2005. ">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
-  <meta property="og:url" content="-CUSTOMER VALUE-">
+  <meta property="og:image" content="<?php echo base_url(); ?>assets/uploads/img/logo-corp.png"><!-- link to image for socio -->
+  <meta property="og:url" content="<?php echo base_url(); ?>">
 
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/global/img/gallery.ico">
   <!-- Global styles START -->          
