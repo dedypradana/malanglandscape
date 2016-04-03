@@ -9,14 +9,8 @@ Header always set Access-Control-Allow-Headers "x-requested-with, Content-Type, 
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^(.*) index.php/$1 [L]
 
-# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
-
-Options +FollowSymlinks
-RewriteEngine on
+RewriteEngine On
 RewriteBase /
-
-# Rewrite URL to forward to a folder
-RewriteCond $1 !^(index\.php|indexGB\.php|login\.php|themes|file|manual)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*) index.php/$1 [L]
+RewriteRule ^(.*)$ /index.php?/$1 [L]
