@@ -7,7 +7,7 @@ class Admin_content extends MY_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('M_content', 'mc');
-        $this->load->library('image_CRUD');   
+        $this->load->library('Image_CRUD');   
     }
 
     public function index() {
