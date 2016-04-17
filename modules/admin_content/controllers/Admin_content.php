@@ -30,7 +30,7 @@ class Admin_content extends MY_Controller {
         $this->templates->admin('v_portofolio', $data);
     }
     public function gallery() {
-        $image_crud = new Image_CRUD();
+        $image_crud = new image_CRUD();
         
         $image_crud->set_title_field('nama');
         $image_crud->set_table('gallery');
