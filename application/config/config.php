@@ -27,6 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://malanglandscape.ga/';
+//$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
